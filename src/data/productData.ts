@@ -18,11 +18,16 @@ export interface FaqItem {
   category: 'produto' | 'bateria' | 'entrega' | 'garantia';
 }
 
+import heroShaverImg from '../assets/images/hero_velours_shaver_1792451172792.jpg';
+import headsKitImg from '../assets/images/product_velours_heads_1792451173034.jpg';
+import macroBladesImg from '../assets/images/product_velours_lifestyle_1792451174130.jpg';
+import boxPackageImg from '../assets/images/product_velours_box_kit_1792451173563.jpg';
+
 export const PRODUCT_IMAGES = {
-  heroShaver: '/src/assets/images/hero_velours_shaver_1792451172792.jpg',
-  headsKit: '/src/assets/images/product_velours_heads_1792451173034.jpg',
-  macroBlades: '/src/assets/images/product_velours_lifestyle_1792451174130.jpg',
-  boxPackage: '/src/assets/images/product_velours_box_kit_1792451173563.jpg',
+  heroShaver: heroShaverImg,
+  headsKit: headsKitImg,
+  macroBlades: macroBladesImg,
+  boxPackage: boxPackageImg,
 };
 
 export const PRODUCT_DATA = {
